@@ -1,0 +1,93 @@
+
+.services-banner {
+    background-color: #000;
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('/Kursova//УслугиКартинки/enginePattern.jpg');
+   
+    
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.breadcrumbs {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.breadcrumbs .home-link {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.breadcrumbs span {
+    color: white;
+    margin: 0 5px;
+}
+
+
+.services-list-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.red-line {
+    width: 60px;
+    height: 3px;
+    background-color: #e74c3c;
+}
+
+
+.services-grid {
+   display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;
+    justify-content: center;
+}
+
+.service-item {
+    flex: 350px; 
+    max-width: 400px;
+    background: #f9f9f9;
+    text-align: center;
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.service-item:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.service-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.service-title {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.service-title h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
