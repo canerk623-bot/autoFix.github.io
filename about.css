@@ -183,3 +183,40 @@
     margin-right: 8px;
 
 }
+@media (max-width: 768px) {
+
+    
+    .about-banner h1 {
+        font-size: 2rem;
+    }
+
+   
+    .intro-flex {
+        flex-direction: column;
+    }
+
+    .intro-image {
+        clip-path: none;
+    }
+
+    .intro-text {
+        padding: 25px;
+        text-align: center;
+    }
+
+   
+    .team-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .team-member {
+        max-width: 100%;
+    }
+
+  
+    .map-container {
+        height: 300px;
+    }
+}
+
